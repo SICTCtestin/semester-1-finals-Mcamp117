@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.navdrawerversion.condimentsFragment">
+
+
+    <Button
+        android:id="@+id/conOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add to Order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salpep" />
+
+    <TextView
+        android:id="@+id/saltandpepper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:text="Salt/Pepper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/silvercon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Condiments/Silverware"
+        android:textColor="#ff0048"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/silverware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:text="Silverware"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/condimentspic"
+        android:layout_width="302dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="55dp"
+        android:src="@drawable/condiments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/condiments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="320dp"
+        android:text="Condiments(.25 each)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/salpep"
+        android:layout_width="169dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="84dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/Salt"
+            android:layout_width="80dp"
+            android:layout_height="51dp"
+            android:text="Salt" />
+
+        <RadioButton
+            android:id="@+id/Pepper"
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:text="Pepper" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/forspokn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="204dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/Spoon"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:text="Spoon" />
+
+        <RadioButton
+            android:id="@+id/Fork"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:text="Fork" />
+
+        <RadioButton
+            android:id="@+id/Knife"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Knife" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/Bufmayhot"
+        android:layout_width="293dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/Ranch"
+            android:layout_width="93dp"
+            android:layout_height="60dp"
+            android:text="Ranch" />
+
+        <RadioButton
+            android:id="@+id/Buffalo"
+            android:layout_width="94dp"
+            android:layout_height="60dp"
+            android:text="Buffalo" />
+
+        <RadioButton
+            android:id="@+id/Hot_Sauce"
+            android:layout_width="107dp"
+            android:layout_height="61dp"
+            android:text="Hot Sauce" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/Ketmusbbq"
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="55dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/Ketchup"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Ketchup" />
+
+        <RadioButton
+            android:id="@+id/Mustard"
+            android:layout_width="101dp"
+            android:layout_height="49dp"
+            android:text="Mustard" />
+
+        <RadioButton
+            android:id="@+id/BBQ"
+            android:layout_width="94dp"
+            android:layout_height="49dp"
+            android:text="BBQ" />
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

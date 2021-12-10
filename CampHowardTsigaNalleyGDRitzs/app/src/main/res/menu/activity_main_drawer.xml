@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_combo"
+            android:icon="@drawable/comboicon"
+            android:title="Combos" />
+        <item
+            android:id="@+id/nav_sandwich"
+            android:icon="@drawable/sandwichicon"
+            android:title="Sanwiches" />
+        <item
+            android:id="@+id/nav_hotDogs"
+            android:icon="@drawable/hotdogicon"
+            android:title="Hot Dogs" />
+        <item
+            android:id="@+id/nav_salad"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="salads" />
+        <item
+            android:id="@+id/nav_chili"
+            android:icon="@drawable/chilliicon"
+            android:title="Chili" />
+        <item
+            android:id="@+id/nav_specialty"
+            android:icon="@drawable/specialtiesbanner"
+            android:title="Specialties" />
+
+        <item
+            android:id="@+id/nav_icecream"
+            android:icon="@drawable/icecreamcon"
+            android:title="Ice Cream" />
+
+        <item
+            android:id="@+id/nav_condiments"
+            android:icon="@drawable/condimentscon"
+            android:title="Condiments" />
+
+        <item
+            android:id="@+id/nav_checkout"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Checkout" />
+    </group>
+
+</menu>

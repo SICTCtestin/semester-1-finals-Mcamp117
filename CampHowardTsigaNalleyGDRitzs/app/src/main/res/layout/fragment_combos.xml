@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/titleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMBOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/descriptionTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Each of our combos come with a side order of fries and a medium drink or you may upgrade it to a Basket Combo to include a side of coleslaw."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="146dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215"
+        app:srcCompat="@drawable/combosbanner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75">
+
+        <CheckBox
+            android:id="@+id/combo1CB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMBO #1 - $5.00" />
+
+        <CheckBox
+            android:id="@+id/combo2CB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMBO #2 - $5.50" />
+
+        <CheckBox
+            android:id="@+id/combo3CB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMBO #1 - $6.00" />
+
+        <CheckBox
+            android:id="@+id/combo4CB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMBO #4 - $5.00" />
+
+        <CheckBox
+            android:id="@+id/comboBsktCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RITZ COMBO BASKET - $7.00" />
+
+        <CheckBox
+            android:id="@+id/comboDealCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COOL DEAL - $6.00" />
+
+        <CheckBox
+            android:id="@+id/comboKidsCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITZY RITZY FOR KIDS - $4.00" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/comboBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

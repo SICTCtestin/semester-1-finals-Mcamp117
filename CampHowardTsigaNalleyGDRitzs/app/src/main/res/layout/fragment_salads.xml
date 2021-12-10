@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".saladsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="211dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/salad" />
+
+    <TextView
+        android:id="@+id/saladLBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="SALADS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sdescLBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    We prepare our salads fresh every day and regrigerate them until they are served. Each salad comes your choice of dressing: Buttermilk Ranch, Fat Free Ranch, Light Italian, Fat Free California French, Thousand Island, and Dijon Honey Mustard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="409dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/cgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choice Garden Salad - $2.50" />
+
+        <RadioButton
+            android:id="@+id/dgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deluxe Garden Salad - $3.00" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Side Salad - $2.00" />
+
+        <RadioButton
+            android:id="@+id/ts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taco Salad - $2.75" />
+
+        <RadioButton
+            android:id="@+id/cs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken Salad - $3.25" />
+
+        <Button
+            android:id="@+id/addBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Order" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

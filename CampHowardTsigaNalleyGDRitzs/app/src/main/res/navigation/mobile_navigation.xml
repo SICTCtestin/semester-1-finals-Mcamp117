@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navdrawerversion.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_chili"
+        android:name="com.example.navdrawerversion.ui.gallery.ChiliFragment"
+        android:label="Chili"
+        tools:layout="@layout/fragment_chili" />
+
+    <fragment
+        android:id="@+id/nav_hotDogs"
+        android:name="com.example.navdrawerversion.ui.hotdog.hotDogsFragment"
+        android:label="hotdogs"
+        tools:layout="@layout/fragment_hot_dogs" />
+
+    <fragment
+        android:id="@+id/nav_combo"
+        android:name="com.example.navdrawerversion.ui.combo.ComboFragment"
+        android:label="fragment_combos"
+        tools:layout="@layout/fragment_combos" />
+
+    <fragment
+        android:id="@+id/nav_sandwich"
+        android:name="com.example.navdrawerversion.ui.sandwich.SandwichFragment"
+        android:label="fragment_sandwiches"
+        tools:layout="@layout/fragment_sandwhiches" />
+
+    <fragment
+        android:id="@+id/nav_icecream"
+        android:name="com.example.navdrawerversion.icecreamFragment"
+        android:label="icecream"
+        tools:layout="@layout/fragment_icecream" />
+
+    <fragment
+        android:id="@+id/nav_condiments"
+        android:name="com.example.navdrawerversion.condimentsFragment"
+        android:label="condiments"
+        tools:layout="@layout/fragment_condiments" />
+    <fragment
+        android:id="@+id/nav_checkout"
+        android:name="com.example.navdrawerversion.CheckOutFragment"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_check_out" />
+    <fragment
+        android:id="@+id/nav_salad"
+        android:name="com.example.navdrawerversion.saladsFragment"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_salads" />
+    <fragment
+        android:id="@+id/nav_specialty"
+        android:name="com.example.navdrawerversion.specialtiesFragment"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_specialties" />
+</navigation>
