@@ -1,3 +1,16 @@
+form{
+     display: flex;
+     flex-direction: column;
+     padding-left: 1em;
+     width: 80%;
+     margin-bottom: .5em;
+}
+input{
+     margin-bottom: .5em;
+}
+textarea{
+     margin-bottom: .5em;
+}
 @media(min-width:1024px){
     body{
       background-color: #73909a;
@@ -136,4 +149,5 @@
         font-weight: bold;
         font-size: 120%;
     }
+      
   }
